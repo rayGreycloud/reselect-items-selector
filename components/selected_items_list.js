@@ -8,7 +8,7 @@ const SelectedItemsList = (props) => {
       {
         props.items.map(item => {
           return <li className="list-group-item" key={item.id}>{item.title}</li>
-        });
+        })
       }
     </ul>
   );
